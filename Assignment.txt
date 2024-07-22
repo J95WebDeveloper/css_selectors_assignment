@@ -1,0 +1,11 @@
+Q1. For the given index.html file. Perform the following task, without changing the 
+    index.html file.
+
+Q2. Create a CSS file and link it to the provided HTML file below, use any of the 
+    combinator class selectors to style the navigation menu as follows.
+
+Q3. Using any of the Pseudo element selectors, add any random words after and before 
+    the given HTML tag.
+
+Q4. Using any of the Pseudo element selectors, add any random words after and before
+    the given HTML tag.

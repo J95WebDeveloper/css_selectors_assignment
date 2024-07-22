@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*******************    Task_2   **********************/
+li a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+nav > ul {
+  display: flex;
+  margin: 10px;
+}
+li + li {
+  margin-left: 30px;
+}
+
+/*******************    Task_3   **********************/
+h1::before {
+  content: "Hello ";
+  color: brown;
+}
+
+h1 {
+  text-align: center;
+  margin-left: 5px;
+}
+
+h1::after {
+  content: " Mentors";
+  color: rgb(126, 81, 54);
+}
+
+/*******************    Task_4   **********************/
+.pse_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.btn {
+  background-color: #4169e2;
+  padding: 15px 25px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn::after {
+  content: "Skills";
+  padding-left: 5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #2454d7;
+  box-shadow: 10px 5px 8px rgba(0, 0, 0, 0.8);
+}

@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/**********    using combinator selector    *********/
+li a {
+  color: red;
+}
+
+nav > h2 {
+  background-color: coral;
+  color: #fff;
+}
+
+div + p {
+  color: red;
+}
+
+/**********    using attribut selector   *********/
+a[href="#"] {
+  text-decoration: none;
+  color: red;
+}
+
+a[class="active"] {
+  text-decoration: underline;
+  color: #fff;
+}
+
+a[target="_self"] {
+  background-color: rgb(62, 156, 243);
+}
+
+/**********    using pseudo selector   *********/
+div + p + p + p::after {
+  content: " ...";
+}
+ul {
+  margin-left: 20px;
+}
+li::marker {
+  color: blue;
+}
+div + p + p:first-letter {
+  color: red;
+  font-size: 30px;
+}
